@@ -29,13 +29,13 @@ public class SFTPUtil {
 
     private Session session;
     /** SFTP 登录用户名*/
-    private String username ="root";
+    private String username ="";
     /** SFTP 登录密码*/
     private String password;
     /** 私钥 */
-    private String privateKey ="src/main/resources/dopv2.pem";
+    private String privateKey ="";
     /** SFTP 服务器地址IP地址*/
-    private String host = "121.42.13.243";
+    private String host = "";
     /** SFTP 端口*/
     private int port = 22;
 

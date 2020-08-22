@@ -1,16 +1,15 @@
 package com.baasexample.demo.model.dbMo;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import org.bouncycastle.pqc.crypto.ntru.NTRUEncryptionKeyGenerationParameters;
+import org.bouncycastle.pqc.crypto.ntru.NTRUEncryptionKeyPairGenerator;
 
 /**
  * 注释写在这
  *
  * @author Monhey
  */
-@Getter
-@Setter
+@Data
 public class NewNetInfo {
     private int id;
     private String namespace;
@@ -23,4 +22,5 @@ public class NewNetInfo {
     public String toString(){
         return "id:"+id+"\nnamespace:"+namespace+"\nordererList:"+ordererList+"\norgList"+orgList+"\nconsensus:"+consensus+"\ntls:"+tls+"\ncreateTime:"+createtime+"\nstatus:"+status;
     }
+
 }

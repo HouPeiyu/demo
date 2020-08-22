@@ -2,9 +2,9 @@ package com.baasexample.demo.config;
 
 
 public class JenkinsClient {
-    private static String uri = "http://jenkins.dop.clsaa.com";
-    private static String username = "dop";
-    private static String password = "Dop123..";
+    private static String uri = "";
+    private static String username = "";
+    private static String password = "";
 
     public JenkinsClient() {
     }
